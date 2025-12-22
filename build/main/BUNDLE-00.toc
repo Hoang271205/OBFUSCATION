@@ -1,1 +1,0 @@
-([('main', '/Users/ttcenter/Obfuscation/dist/main', 'EXECUTABLE')],)
