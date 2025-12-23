@@ -16,7 +16,6 @@ except:
 if __name__ == "__main__":
     blob = obfuscate_payload(PAYLOAD, SECRET_KEY)
     print("-" * 30)
-    print("HÃY COPY CHUỖI HEX DƯỚI ĐÂY (An toàn hơn chuỗi Byte):")
     print(blob.hex()) 
     print("-" * 30)
 
