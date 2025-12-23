@@ -17,6 +17,7 @@ if __name__ == "__main__":
     blob = obfuscate_payload(PAYLOAD, SECRET_KEY)
     print("-" * 30)
     print("HÃY COPY CHUỖI HEX DƯỚI ĐÂY (An toàn hơn chuỗi Byte):")
-    # Chuyển chuỗi byte sang hex string
     print(blob.hex()) 
     print("-" * 30)
+
+# file lấy mã hex này sẽ được dán vào client_stub.py
